@@ -107,7 +107,7 @@ class FacebookPageScrapper(object):
 class PageFeedData(object):
     
     def __init__(self, myscrapper, page_id, num_status):
-        self._scrapper =  FacebookPageScrapper(app_id, app_secret)
+        self._scrapper =  myscrapper
         self.data = self._scrapper.get_facebook_page_feed(
                             page_id,
                             num_status
