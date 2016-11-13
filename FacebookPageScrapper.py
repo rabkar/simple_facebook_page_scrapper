@@ -23,7 +23,7 @@ myScrapper = scr.FacebookPageScrapper(app_id, app_secret)
     # myScrapper.access_token to get the scrapper access_token
 
 # get the data
-page_feeds = PageFeedData(myScrapper, page_id, num_status)
+page_feeds = scr.PageFeedData(myScrapper, page_id, num_status)
     # page_feeds._scrapper to see the FacebookScrapper object
     # page_feed.data to see the data retreived by scrapper
 
