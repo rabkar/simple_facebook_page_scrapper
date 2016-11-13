@@ -6,7 +6,7 @@
 """
 Facebook Page Scrapper.
 author          : Ridho Akbar (github username: rabkar)
-last modified   : 2016-11-13
+last modified   : 2016-11-13 12:17:00 UTC+7
 
 Example ussage:
 ------------------
